@@ -1,0 +1,29 @@
+.add{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.dec{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    margin-left:20px;
+}
