@@ -36,7 +36,7 @@ export default function Gallery() {
         ({index + 1} of {sculptureList.length})
       </h3>
       <div className='div-test'>
-      <button className='botao' onClick={handleMoreClick}>
+      <button className='botao-grande' onClick={handleMoreClick}>
         {showMore ? 'Hide' : 'Show'} details
       </button>
       </div>

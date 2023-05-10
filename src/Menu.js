@@ -19,9 +19,8 @@ export function Menu(){
       <div className="offset icon-box">
         <h3 className="title">Aula - 25/04</h3>
         <div>
-        <Link to="/datatime" className='links'>Exemplo 1: Data e hora</Link>
-          <Link to="/letreiro" className='links'>Exemplo 2: Letreiro</Link>
-          <Link to="/contador" className='links'>Exemplo 3: Contador</Link>
+        <Link to="/gallery2" className='links'>Exemplo 1: Gallery</Link>
+          <Link to="/todolist" className='links'>Exemplo 2: Todolist</Link>
         </div>
       </div>
       <div className="offset icon-box">
@@ -41,6 +40,16 @@ export function Menu(){
           <Link to="/list3" className='links'>Exemplo 12:  List3</Link>
           <Link to="/list4" className='links'>Exemplo 13:  List4</Link>
           <Link to="/bucketList" className='links'>Exemplo 14:  BucketList</Link>
+        </div>
+      </div>
+
+      <div className="offset icon-box">
+        <h3 className="title">Aula - 09/05</h3>
+        <div>
+        <Link to="/city" className='links'>Exemplo 1: City quiz</Link>
+          <Link to="/ticket" className='links'>Exemplo 2: Form Ticket</Link>
+          <Link to="/accordion" className='links'>Exemplo 3: Componente Accordion</Link>
+          <Link to="/contact" className='links'>Exemplo 4: Contact list</Link>
         </div>
       </div>
     </div>
