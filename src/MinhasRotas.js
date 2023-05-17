@@ -24,6 +24,7 @@ import Accordion from './Aula04/Exemplo3';
 import Contact from './Aula04/Exemplo04';
 import Gallery2 from './Aula02/Exemplo1';
 import TodoList from './Aula02/Exemplo2';
+import Calculadora from './Aula05/Calculadora';
 
 function MinhasRotas() {
   return (
@@ -54,6 +55,7 @@ function MinhasRotas() {
       <Route path="/ticket" element={<FormTicket/>} />
       <Route path="/accordion" element={<Accordion/>} />
       <Route path="/contact" element={<Contact/>} />
+      <Route path="/calculadora" element={<Calculadora/>} />
     </Routes>
   </BrowserRouter>
   );

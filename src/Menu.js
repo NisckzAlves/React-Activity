@@ -52,6 +52,14 @@ export function Menu(){
           <Link to="/contact" className='links'>Exemplo 4: Contact list</Link>
         </div>
       </div>
+
+      <div className="offset icon-box">
+        <h3 className="title">Aula - 16/05</h3>
+        <div>
+        <Link to="/calculadora" className='links'>Calculadora</Link>
+        </div>
+      </div>
+
     </div>
   </div>
   );
