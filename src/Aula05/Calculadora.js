@@ -59,13 +59,15 @@ function Calculadora() {
 
   const alterarSinal = () => {
     setValorDisplay((prevValor) => {
-      if (prevValor.charAt(0) === "-") {
-        return prevValor.slice(1);
-      } else {
-        return "-" + prevValor;
-      }
+      const ultimoEspaco = prevValor.lastIndexOf(" ");
+      const ultimoValor = prevValor.slice(ultimoEspaco + 1);
+      const novoUltimoValor = parseFloat(ultimoValor) * -1;
+      const novoValor = prevValor.slice(0, ultimoEspaco + 1) + novoUltimoValor.toString();
+      return novoValor;
     });
   };
+  
+  
 
   return (
     <div className='container'>
