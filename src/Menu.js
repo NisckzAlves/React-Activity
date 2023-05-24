@@ -60,6 +60,12 @@ export function Menu(){
         </div>
       </div>
 
+      <div className="offset icon-box">
+        <h3 className="title">Aula - 23/05</h3>
+        <div>
+        <Link to="/memoria" className='links'>Jogo da memoria da Barbie</Link>
+        </div>
+      </div>
     </div>
   </div>
   );
