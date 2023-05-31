@@ -41,7 +41,7 @@ export default function Form() {
           disabled={status === 'submitting'}
         />
         <br />
-        <button disabled={
+        <button className='botao' disabled={
           answer.length === 0 ||
           status === 'submitting'
         }>

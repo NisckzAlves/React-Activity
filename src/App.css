@@ -104,8 +104,9 @@
   background-color: rgb(85, 125, 226);
   border-radius: 6px;
   border: #61dafb;
-  width: 60px;
-  height: 20px;
+  width: 100px;
+  height: 30px;
+  padding: 1px;
 }
 .div-col{
   display:inline-flex;

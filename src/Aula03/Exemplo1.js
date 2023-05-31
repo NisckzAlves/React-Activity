@@ -18,8 +18,8 @@ function ToolBar({ onPlayMovie, onUploadImage }) {
     <div className='container'>
     <Link to="/" className='btn-voltar'>Voltar</Link>
 <div className="div-test">
-      <Button className="botao" onClick={onPlayMovie}>Play Movie</Button>
-      <Button className="botao" onClick={onUploadImage}>Upload Image</Button>
+      <button className="botao-grande" onClick={onPlayMovie}>Play Movie</button>
+      <button className="botao-grande" onClick={onUploadImage}>Upload Image</button>
     </div>
     </div>
   );

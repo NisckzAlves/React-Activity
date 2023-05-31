@@ -8,9 +8,6 @@ export function Button ({onClick, status})
                 status == 'incremento' ? (
                     <span>+</span>
                 ):
-                status=='reset' ? (
-                    <span>Reset</span>
-                ):
                 (
                     <span>-</span>
                 )

@@ -11,23 +11,24 @@ export default function List() {
     <div>
     <div className='container'>
     <Link to="/" className='btn-voltar'>Voltar</Link>
-    <div className='div-test'></div>
+    <div className='div-test'>
       <h1>Inspiring sculptors:</h1>
       <input
         value={name}
         onChange={e => setName(e.target.value)}
       />
-      <button onClick={() => {
+      <button className="botao" onClick={() => {
         setArtists([
           ...artists,
           { id: nextId++, name: name }
         ]);
-      }}>Add</button>
+      }}>     Add</button>
       <ul>
         {artists.map(artist => (
           <li key={artist.id}>{artist.name}</li>
         ))}
       </ul>
+      </div>
       </div>
       </div>
   );

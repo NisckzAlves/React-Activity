@@ -38,7 +38,7 @@ export default function List3() {
         value={name}
         onChange={e => setName(e.target.value)}
       />
-      <button onClick={handleClick}>
+      <button className='botao' onClick={handleClick}>
         Insert
       </button>
       
